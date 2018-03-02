@@ -280,3 +280,135 @@ textarea {
         page-break-after: avoid;
     }
 }
+
+
+body{
+    font-family: 'Open Sans', sans-serif;
+    font-size: 16px;
+    color: #333536;
+}
+h1, h2, h3, h4, h5, h6{
+    line-height: 1.1;
+    font-family: 'Slabo 27px', serif;
+}
+h2{
+    font-size: 48px;
+}
+h3{
+    font-size: 32px;
+}
+.section-title{
+    margin-bottom: 70px;
+    text-align: center;
+}
+.btn{
+    border-radius: 2px;
+    text-transform: uppercase;
+    font-size: 14px;
+    padding: 0.7rem 1.6875rem;
+    font-weight: 600;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.16);
+    color: #fff;
+}
+.btn-info{
+    background-color: #09B1F0;
+    border-color: #09B1F0;
+}
+.btn-primary{
+    background-color: #8058E8;
+    border-color: rgba(200, 200, 200, 0.1);
+}
+.btn-signup{
+    font-size: 15px;
+    padding: 0.5rem 1.5rem;
+    margin-left: 1.6875rem;
+}
+.btn-row {
+    margin: 3rem -0.5rem 0;
+}
+.btn-row .btn{
+    margin: 0 0.5rem;
+}
+.section{
+    padding: 120px 0 130px;
+}
+/*Home Section Start*/
+.home-section{
+    background: url("../img/home-bg.jpg");
+    color: #fff;
+}
+.navbar-brand{
+    font-size: 28px;
+    font-weight: 500;
+    font-family: "Segoe UI";
+    color: #fff;
+}
+.home-wrap{
+    padding: 100px 0 300px;
+}
+.home-wrap .left-side {
+    padding-top: 100px;
+}
+.home-wrap .left-side h1{
+    font-size: 62px;
+    margin-bottom: 15px;
+}
+.home-wrap .left-side p{
+    font-size: 17px;
+    color: rgba(255, 255, 255, 0.9);
+    line-height: 1.7;
+}
+.main-menu.navbar-dark .navbar-nav .nav-link{
+    color: rgba(255, 255, 255, 0.8);
+    font-size: 17px;
+    font-weight: 600;
+    padding: 0.5rem 1.5rem;
+}
+
+/* Get App Section */
+.get-app-section .phone-wrap{
+    max-width: 400px;
+    margin-left: auto;
+}
+.get-app-text{
+    padding-top: 160px;
+}
+.get-app-text h5{
+    font-size: 15px;
+    font-weight: 600;
+    font-family: 'Open Sans', sans-serif;
+    margin-bottom: 20px;
+}
+.get-app-text h3{
+    font-size: 36px;
+    line-height: 1.25;
+}
+.get-app-text p{
+    font-size: 18px;
+    max-width: 350px;
+    margin-bottom: 30px;
+}
+
+
+
+
+/* Our Process Section */
+.our-process-section{
+    background-color: #7745F7;
+    color: #fff;
+}
+.single-process{
+    text-align: center;
+}
+.single-process h5{
+    font-size: 17px;
+    font-weight: 600;
+    text-transform: uppercase;
+    font-family: 'Open Sans', sans-serif;
+    margin: 15px 0 20px;
+}
+.single-process p{
+    font-weight: 600;
+    color: rgba(255, 255, 255, 0.8);
+    padding: 0 4px;
+}
