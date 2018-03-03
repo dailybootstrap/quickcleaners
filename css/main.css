@@ -342,7 +342,10 @@ h3{
     background: url("../img/home-bg.jpg");
     color: #fff;
 }
-.navbar-brand{
+.main-menu{
+    padding: 1rem;
+}
+.main-menu .navbar-brand{
     font-size: 28px;
     font-weight: 500;
     font-family: "Segoe UI";
